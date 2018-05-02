@@ -7,7 +7,7 @@ This is a simple library with international phone prefix with flags images.
 
 To install this component to an external project, follow the procedure:
 
-1. __npm install ng4-intl-phone --save__
+1. __npm install https-ng4-phone-intl --save__
 
 2. Add __InternationalPhoneModule__ import to your __@NgModule__ like example below
     ```ts
@@ -96,15 +96,8 @@ To install this component to an external project, follow the procedure:
     ## License
     * License: MIT
     
-    ## Author
-    * Author: kondi0
-    
-    ## Mail
-    * Mail: kondi.czerwinski@gmail.com
-    
     ## Keywords
     * Phone 
     * Prefix
     * International
-    * Angular2
     * Angular4
