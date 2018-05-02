@@ -1,5 +1,5 @@
 {
-    "name": "ng4-intl-phone-https",
+    "name": "https-ng-intl-ph",
     "version": "1.2.1",
     "description": "International phone prefix library for Angular 2 & 4",
     "main": "./ng4-intl-phone.umd.js",
@@ -10,7 +10,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/datcuemil/ng4-intl-phone-https.git"
+        "url": "https://github.com/datcuemil/https-ng-intl-ph.git"
     },
     "engines": {
         "node": ">= 6.9.0",
@@ -20,22 +20,17 @@
         "clean": "rimraf out-tsc dist/*",
         "prebuild": "npm run clean",
         "build": "node build.js",
-        "build-demo": "tsc -p src/demo/",
-        "build-demo:watch": "tsc -p src/demo/ -w",
         "serve": "lite-server -c=bs-config.json",
-        "prestart": "npm run build-demo",
         "start": "concurrently \"npm run build-demo:watch\" \"npm run serve\"",
         "build-test": "tsc -p src/lib/tsconfig.spec.json",
         "build-test:watch": "tsc -p src/lib/tsconfig.spec.json -w",
         "pretest": "npm run build-test",
         "test": "concurrently \"npm run build-test:watch\" \"karma start karma.conf.js\"",
-        "pretest:once": "npm run build-test",
         "test:once": "karma start karma.conf.js --single-run",
         "preintegration": "npm run build && cd integration && npm run clean && npm install",
         "integration": "npm run integration:aot && npm run integration:jit",
         "integration:jit": "cd integration && npm run e2e",
         "integration:aot": "cd integration && npm run e2e:aot",
-        "lint": "tslint ./src/**/*.ts -t verbose"
     },
     "peerDependencies": {
         "@angular/core": ">=4.0.0 <5.0.0 || >=4.0.0-beta <5.0.0",
