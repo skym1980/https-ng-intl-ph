@@ -2,7 +2,10 @@
     "name": "https-ng-intl-ph",
     "version": "1.2.21",
     "description": "International phone prefix library for Angular 2 & 4",
-    "main": "./lib/index.js",
+    "main": "./https-ng-intl-ph.umd.js",
+    "module": "./https-ng-intl-ph.es5.js",
+    "es2015": "./https-ng-intl-ph.js",
+    "typings": "./https-ng-intl-ph.d.ts",
     "author": "datcuemil",
     "license": "MIT",
     "repository": {
