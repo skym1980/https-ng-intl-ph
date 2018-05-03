@@ -1,6 +1,6 @@
 {
     "name": "https-ng-intl-ph",
-    "version": "1.2.27",
+    "version": "1.2.29",
     "description": "International phone prefix library for Angular 2 & 4",
     "main": "./https-ng-intl-ph.umd.js",
     "module": "./https-ng-intl-ph.es5.js",
