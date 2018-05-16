@@ -15,7 +15,7 @@ export class OnlyNumberDirective {
         let e = <KeyboardEvent> event;
         if (this.onlyNumber) {
             if (
-                [46, 8, 9, 27, 13, 110, 190, 171].indexOf(e.keyCode) !== -1 ||
+                [46, 8, 9, 27, 13, 107, 171].indexOf(e.keyCode) !== -1 ||
                 // Allow: Ctrl+A|X|C|V, Command+A|X|C|V
                 ([65, 88, 67, 86].indexOf(e.keyCode) !== -1 && (e.ctrlKey === true || e.metaKey === true)) ||
                 // Allow: home, end, left, right, down, up
