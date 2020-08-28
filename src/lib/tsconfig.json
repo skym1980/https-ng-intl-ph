@@ -15,8 +15,8 @@
     "annotateForClosureCompiler": true,
     "strictMetadataEmit": true,
     "skipTemplateCodegen": true,
-    "flatModuleOutFile": "https-ng-intl-ph.js",
-    "flatModuleId": "https-ng-intl-ph",
+    "flatModuleOutFile": "https-ng-intl-ph-2.js",
+    "flatModuleId": "https-ng-intl-ph-2",
     "genDir": "../../out-tsc/lib-gen-dir/"
   }
 }
