@@ -1,16 +1,16 @@
 {
-    "name": "https-ng-intl-ph",
-    "version": "1.2.32",
+    "name": "https-ng-intl-ph-2",
+    "version": "1.2.33",
     "description": "International phone prefix library for Angular 2 & 4",
     "main": "./https-ng-intl-ph.umd.js",
     "module": "./https-ng-intl-ph.es5.js",
     "es2015": "./https-ng-intl-ph.js",
     "typings": "./https-ng-intl-ph.d.ts",
-    "author": "datcuemil",
+    "author": "skym1980",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/datcuemil/https-ng-intl-ph.git"
+        "url": "https://github.com/skym1980/https-ng-intl-ph-2.git"
     },
     "engines": {
         "node": ">= 6.9.0",
