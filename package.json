@@ -16,7 +16,7 @@
         "node": ">= 6.9.0",
         "npm": ">= 3.0.0"
     },
-    "publishConfig": { "registry": "https://npm.pkg.github.com/skym1980" },
+    "publishConfig": { "registry": "https://npm.pkg.github.com" },
     "scripts": {
         "clean": "rimraf out-tsc dist/*",
         "prebuild": "npm run clean",
