@@ -19,7 +19,7 @@
     "scripts": {
         "clean": "rimraf out-tsc dist/*",
         "prebuild": "npm run clean",
-        "build": "ng build https-ng-intl-ph-2 --prod",
+        "build": "node build.js",
         "serve": "lite-server -c=bs-config.json",
         "start": "concurrently \"npm run build-demo:watch\" \"npm run serve\"",
         "build-test": "tsc -p src/lib/tsconfig.spec.json",
